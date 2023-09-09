@@ -1,0 +1,116 @@
+h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p{
+    background-color: gray;
+    padding: 15px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.navbar-toggler, navbarToggleExternalContent{
+    margin: 15px;
+    width: 12x;
+    background-color: lightblue;
+}
+
+.navbar-toggler:hover {
+    background-color: #e7e7e7;
+}
+
+#navbarToggleExternalContent{
+    background-color: lightblue;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.line {
+    display: block;
+    background-color: white;  /* Color of the lines */
+    height: 2px; /* Thickness of the lines */
+    width: 12px;             
+    margin: 4px 0;           /* Spacing between the lines */
+    transition: all 0.3s;   /* Optional: smooth transition effect */
+}
+
+.navbar-toggler {
+    margin-bottom: 0px;
+}
+
+#header-nav, #navbarToggleExternalContent, .p-4, .collapse, .navbar-nav{
+    margin: 0;
+    padding: 0;
+}
+@media (min-width: 768px){
+.col-sm-12{
+    width: calc(100%-20px);
+}
+}
+.col-md-6{
+    width: calc(50%-20px);
+}
+
+.col-lg-4{
+    width:calc(33.33%-20px);
+}
+
+#nav-list{
+    justify-content: center;
+    padding: 10px;
+}
+
+#big-text{ 
+    margin-top: 5px;
+}
+
+#header-nav{
+    background-color: gray;
+    border-radius: 0;
+    border: 0;
+    height: 60px;
+}
+
+.navbar{
+    justify-content: center;
+}
+
+.navbar .navbar-brand{
+    color: white;
+    font-size: 32px;
+    line-height: 30px;
+}
+
+.box1, .box2, .box3, .box4{
+    position: relative;
+    background-color: gray;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid black;
+    position: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow-x: hidden;
+}
+
+.title1 , .title2, .title3{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.title1{
+    background-color: lightblue;
+}
+
+.title2{
+    background-color: beige;
+}
+
+.title3{
+    background-color: lightpink;
+}

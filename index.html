@@ -1,54 +1,105 @@
-<!DOCTYPE html>
-<html>
-<head>
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+
     <title>Module 3</title>
-</head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
 <body>
-
-<nav class="navbar navbar-default" id="top">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Food, LLC</a>
-        </div>
+    <nav class="navbar navbar-default" id ="header-nav">
+    <a class="navbar-brand" href="#">Food, LLC</a>
+      <button class="navbar-toggler pull-right visible-xs" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" >
+        <span class = "sr-only"> Toggle navigation</span>
+        <span class= "line"></span>
+        <span class = "line"></span>
+        <span class = "line"></span>
+      </button>
+    </nav>
+    <div class="collapse" id="navbarToggleExternalContent">
+      <div class="bg-dark p-4">
+        <ul id="nav-list" class="nav navbar-nav navbar-right">
+          <li>
+            <a class="nav-link visible-xs" href="#">Chicken</a>
+          </li>
+          <li>
+            <a class="nav-link visible-xs" href="#">Beef</a>
+          </li>
+          <li>
+            <a class="nav-link visible-xs" href="#">Sushi</a>
+          </li>
+        </ul>
+      </div>
     </div>
-</nav>
 
-<h1 class="main-title">Our Menu</h1>
+  <h1 class = "text-center">Our Menu</h1>
+  <div class = "row clearfix">
+    <div class="col-lg-4 col-md-6 col-sm-12 box1">      
+        <section class="title1">Chicken</section><p>Lorem ipsum dolor sit amet. Est sunt labore vel repellat quia qui consequuntur natus qui nisi saepe. Est natus velit ad officiis animi et eaque blanditiis sed officia explicabo et Quis amet ex tempora iste qui dolores velit? Et deleniti corporis eum repudiandae aperiam ab dolores autem.
 
-<div class="container">
-    <div class="row">
-        <div class="col-lg-4 col-md-6 col-sm-12">
-            <div class="content-box">
-                <p class="item-name">Chicken</p>
-                <p>It's important to have a good customer service, a customer service provider. Aenean's good fortune needs pain. Jasmine mass. Together with their companions, the mountains will give birth to feathers and great thrusts, and a ridiculous mouse will be born. Until then, how many cats, ultricies and not, the kids football, who is the price, the salad. There is no mass effect for anyone. It is important to take care of the patient, to be followed by the patient, but it will happen at such a time that there is a lot of work and pain. For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it. Do not be angry with the pain in the reprimand in the pleasure he wants to be a hair from the pain in the hope that there is no breeding. Unless they are blinded by lust, they do not come forth; they are in fault who abandon their duties and soften their hearts, that is, their labors.<a href="#top">(Back to Top)</a></p>
-            </div>
-        </div>
+        Sed velit distinctio sit qudem esse non beatae nulla in earum odio non molestias accusantium. Eum velit quas ab laboriosam harum qui illo quam qui pariatur quasi id excepturi quam et porro repellendus et eligendi enim! Vel similique molestias et quibusdam Quis quo animi nesciunt id suscipit ducimus et neque facilis. Qui possimus perferendis vel delectus animi nam reprehenderit provident et autem sequi qui autem harum.
+        
+        Ut alias sunt ea illo dolorum est earum magni eos aperiam illum aut pariatur perferendis sed accusamus quasi sit deserunt illum. Est dolorem aperiam qui distinctio asperiores aut deserunt obcaecati qui exercitationem adipisci non dicta minus aut ipsa facere aut magnam optio. Sed quia officiis ut corporis facilis id nesciunt magnam et quam ipsa non corrupti voluptatem cum quia tempore. Qui quod animi nam suscipit aliquid eos maxime blanditiis!</p></div>
+    <div class="col-lg-4 col-md-6 col-sm-12 box2">
+        <section class="title2">Beef</section><p>Lorem ipsum dolor sit amet. Est sunt labore vel repellat quia qui consequuntur natus qui nisi saepe. Est natus velit ad officiis animi et eaque blanditiis sed officia explicabo et Quis amet ex tempora iste qui dolores velit? Et deleniti corporis eum repudiandae aperiam ab dolores autem.
 
-        <div class="col-lg-4 col-md-6 col-sm-12">
-            <div class="content-box">
-                <p class="item-name">Beef</p>
-                <p>It's important to have a good customer service, a customer service provider. Aenean's good fortune needs pain. Jasmine mass. Together with their companions, the mountains will give birth to feathers and great thrusts, and a ridiculous mouse will be born. Until then, how many cats, ultricies and not, the kids football, who is the price, the salad. There is no mass effect for anyone. It is important to take care of the patient, to be followed by the patient, but it will happen at such a time that there is a lot of work and pain. For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it. Do not be angry with the pain in the reprimand in the pleasure he wants to be a hair from the pain in the hope that there is no breeding. Unless they are blinded by lust, they do not come forth; they are in fault who abandon their duties and soften their hearts, that is, their labors.<a href="#top">(Back to Top)</a></p>
-            </div>
-        </div>
+        Sed velit distinctio sit quidem esse non beatae nulla in earum odio non molestias accusantium. Eum velit quas ab laboriosam harum qui illo quam qui pariatur quasi id excepturi quam et porro repellendus et eligendi enim! Vel similique molestias et quibusdam Quis quo animi nesciunt id suscipit ducimus et neque facilis. Qui possimus perferendis vel delectus animi nam reprehenderit provident et autem sequi qui autem harum.
+        
+        Ut alias sunt ea illo dolorum est earum magni eos aperiam illum aut pariatur perferendis sed accusamus quasi sit deserunt illum. Est dolorem aperiam qui distinctio asperiores aut deserunt obcaecati qui exercitationem adipisci non dicta minus aut ipsa facere aut magnam optio. Sed quia officiis ut corporis facilis id nesciunt magnam et quam ipsa non corrupti voluptatem cum quia tempore. Qui quod animi nam suscipit aliquid eos maxime blanditiis!</p></div>
+    <div class="col-lg-4 col-md-12 col-sm-12 box3">
+        <section class="title3">Sushi</section><p>Lorem ipsum dolor sit amet. Est sunt labore vel repellat quia qui consequuntur natus qui nisi saepe. Est natus velit ad officiis animi et eaque blanditiis sed officia explicabo et Quis amet ex tempora iste qui dolores velit? Et deleniti corporis eum repudiandae aperiam ab dolores autem.
 
-        <div class="col-lg-4 col-md-12 col-sm-12">
-            <div class="content-box">
-                <p class="item-name">Sushi</p>
-                <p>It's important to have a good customer service, a customer service provider. Aenean's good fortune needs pain. Jasmine mass. Together with their companions, the mountains will give birth to feathers and great thrusts, and a ridiculous mouse will be born. Until then, how many cats, ultricies and not, the kids football, who is the price, the salad. There is no mass effect for anyone. It is important to take care of the patient, to be followed by the patient, but it will happen at such a time that there is a lot of work and pain. For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it. Do not be angry with the pain in the reprimand in the pleasure he wants to be a hair from the pain in the hope that there is no breeding. Unless they are blinded by lust, they do not come forth; they are in fault who abandon their duties and soften their hearts, that is, their labors.<a href="#top">(Back to Top)</a></p>
-            </div>
-        </div>
+        Sed velit distinctio sit quidem esse non beatae nulla in earum odio non molestias accusantium. Eum velit quas ab laboriosam harum qui illo quam qui pariatur quasi id excepturi quam et porro repellendus et eligendi enim! Vel similique molestias et quibusdam Quis quo animi nesciunt id suscipit ducimus et neque facilis. Qui possimus perferendis vel delectus animi nam reprehenderit provident et autem sequi qui autem harum.
+        
+        Ut alias sunt ea illo dolorum est earum magni eos aperiam illum aut pariatur perferendis sed accusamus quasi sit deserunt illum. Est dolorem aperiam qui distinctio asperiores aut deserunt obcaecati qui exercitationem adipisci non dicta minus aut ipsa facere aut magnam optio. Sed quia officiis ut corporis facilis id nesciunt magnam et quam ipsa non corrupti voluptatem cum quia tempore. Qui quod animi nam suscipit aliquid eos maxime blanditiis!</p></div>
+
+    <div class= "col-xs-12 box4">
+      <p id = "big-text">Lorem ipsum dolor sit amet. Est sunt labore vel repellat quia qui consequuntur natus qui nisi saepe. Est natus velit ad officiis animi et eaque blanditiis sed officia explicabo et Quis amet ex tempora iste qui dolores velit? Et deleniti corporis eum repudiandae aperiam ab dolores autem.
+
+        Sed velit distinctio sit quidem esse non beatae nulla in earum odio non molestias accusantium. Eum velit quas ab laboriosam harum qui illo quam qui pariatur quasi id excepturi quam et porro repellendus et eligendi enim! Vel similique molestias et quibusdam Quis quo animi nesciunt id suscipit ducimus et neque facilis. Qui possimus perferendis vel delectus animi nam reprehenderit provident et autem sequi qui autem harum.
+        
+        Ut alias sunt ea illo dolorum est earum magni eos aperiam illum aut pariatur perferendis sed accusamus quasi sit deserunt illum. Est dolorem aperiam qui distinctio asperiores aut deserunt obcaecati qui exercitationem adipisci non dicta minus aut ipsa facere aut magnam optio. Sed quia officiis ut corporis facilis id nesciunt magnam et quam ipsa non corrupti voluptatem cum quia tempore. Qui quod animi nam suscipit aliquid eos maxime blanditiis! Lorem ipsum dolor sit amet. Est sunt labore vel repellat quia qui consequuntur natus qui nisi saepe. Est natus velit ad officiis animi et eaque blanditiis sed officia explicabo et Quis amet ex tempora iste qui dolores velit? Et deleniti corporis eum repudiandae aperiam ab dolores autem.
+
+        Sed velit distinctio sit quidem esse non beatae nulla in earum odio non molestias accusantium. Eum velit quas ab laboriosam harum qui illo quam qui pariatur quasi id excepturi quam et porro repellendus et eligendi enim! Vel similique molestias et quibusdam Quis quo animi nesciunt id suscipit ducimus et neque facilis. Qui possimus perferendis vel delectus animi nam reprehenderit provident et autem sequi qui autem harum.
+        
+        Ut alias sunt ea illo dolorum est earum magni eos aperiam illum aut pariatur perferendis sed accusamus quasi sit deserunt illum. Est dolorem aperiam qui distinctio asperiores aut deserunt obcaecati qui exercitationem adipisci non dicta minus aut ipsa facere aut magnam optio. Sed quia officiis ut corporis facilis id nesciunt magnam et quam ipsa non corrupti voluptatem cum quia tempore. Qui quod animi nam suscipit aliquid eos maxime blanditiis! Lorem ipsum dolor sit amet. Est sunt labore vel repellat quia qui consequuntur natus qui nisi saepe. Est natus velit ad officiis animi et eaque blanditiis sed officia explicabo et Quis amet ex tempora iste qui dolores velit? Et deleniti corporis eum repudiandae aperiam ab dolores autem.
+
+        Sed velit distinctio sit quidem esse non beatae nulla in earum odio non molestias accusantium. Eum velit quas ab laboriosam harum qui illo quam qui pariatur quasi id excepturi quam et porro repellendus et eligendi enim! Vel similique molestias et quibusdam Quis quo animi nesciunt id suscipit ducimus et neque facilis. Qui possimus perferendis vel delectus animi nam reprehenderit provident et autem sequi qui autem harum.
+        
+        Ut alias sunt ea illo dolorum est earum magni eos aperiam illum aut pariatur perferendis sed accusamus quasi sit deserunt illum. Est dolorem aperiam qui distinctio asperiores aut deserunt obcaecati qui exercitationem adipisci non dicta minus aut ipsa facere aut magnam optio. Sed quia officiis ut corporis facilis id nesciunt magnam et quam ipsa non corrupti voluptatem cum quia tempore. Qui quod animi nam suscipit aliquid eos maxime blanditiis! Lorem ipsum dolor sit amet. Est sunt labore vel repellat quia qui consequuntur natus qui nisi saepe. Est natus velit ad officiis animi et eaque blanditiis sed officia explicabo et Quis amet ex tempora iste qui dolores velit? Et deleniti corporis eum repudiandae aperiam ab dolores autem.
+
+        Sed velit distinctio sit quidem esse non beatae nulla in earum odio non molestias accusantium. Eum velit quas ab laboriosam harum qui illo quam qui pariatur quasi id excepturi quam et porro repellendus et eligendi enim! Vel similique molestias et quibusdam Quis quo animi nesciunt id suscipit ducimus et neque facilis. Qui possimus perferendis vel delectus animi nam reprehenderit provident et autem sequi qui autem harum.
+        
+        Ut alias sunt ea illo dolorum est earum magni eos aperiam illum aut pariatur perferendis sed accusamus quasi sit deserunt illum. Est dolorem aperiam qui distinctio asperiores aut deserunt obcaecati qui exercitationem adipisci non dicta minus aut ipsa facere aut magnam optio. Sed quia officiis ut corporis facilis id nesciunt magnam et quam ipsa non corrupti voluptatem cum quia tempore. Qui quod animi nam suscipit aliquid eos maxime blanditiis! Lorem ipsum dolor sit amet. Est sunt labore vel repellat quia qui consequuntur natus qui nisi saepe. Est natus velit ad officiis animi et eaque blanditiis sed officia explicabo et Quis amet ex tempora iste qui dolores velit? Et deleniti corporis eum repudiandae aperiam ab dolores autem.
+
+        Sed velit distinctio sit quidem esse non beatae nulla in earum odio non molestias accusantium. Eum velit quas ab laboriosam harum qui illo quam qui pariatur quasi id excepturi quam et porro repellendus et eligendi enim! Vel similique molestias et quibusdam Quis quo animi nesciunt id suscipit ducimus et neque facilis. Qui possimus perferendis vel delectus animi nam reprehenderit provident et autem sequi qui autem harum.
+        
+        Ut alias sunt ea illo dolorum est earum magni eos aperiam illum aut pariatur perferendis sed accusamus quasi sit deserunt illum. Est dolorem aperiam qui distinctio asperiores aut deserunt obcaecati qui exercitationem adipisci non dicta minus aut ipsa facere aut magnam optio. Sed quia officiis ut corporis facilis id nesciunt magnam et quam ipsa non corrupti voluptatem cum quia tempore. Qui quod animi nam suscipit aliquid eos maxime blanditiis! Lorem ipsum dolor sit amet. Est sunt labore vel repellat quia qui consequuntur natus qui nisi saepe. Est natus velit ad officiis animi et eaque blanditiis sed officia explicabo et Quis amet ex tempora iste qui dolores velit? Et deleniti corporis eum repudiandae aperiam ab dolores autem.
+
+        Sed velit distinctio sit quidem esse non beatae nulla in earum odio non molestias accusantium. Eum velit quas ab laboriosam harum qui illo quam qui pariatur quasi id excepturi quam et porro repellendus et eligendi enim! Vel similique molestias et quibusdam Quis quo animi nesciunt id suscipit ducimus et neque facilis. Qui possimus perferendis vel delectus animi nam reprehenderit provident et autem sequi qui autem harum.
+        
+        Ut alias sunt ea illo dolorum est earum magni eos aperiam illum aut pariatur perferendis sed accusamus quasi sit deserunt illum. Est dolorem aperiam qui distinctio asperiores aut deserunt obcaecati qui exercitationem adipisci non dicta minus aut ipsa facere aut magnam optio. Sed quia officiis ut corporis facilis id nesciunt magnam et quam ipsa non corrupti voluptatem cum quia tempore. Qui quod animi nam suscipit aliquid eos maxime blanditiis! Lorem ipsum dolor sit amet. Est sunt labore vel repellat quia qui consequuntur natus qui nisi saepe. Est natus velit ad officiis animi et eaque blanditiis sed officia explicabo et Quis amet ex tempora iste qui dolores velit? Et deleniti corporis eum repudiandae aperiam ab dolores autem.
+
+        Sed velit distinctio sit quidem esse non beatae nulla in earum odio non molestias accusantium. Eum velit quas ab laboriosam harum qui illo quam qui pariatur quasi id excepturi quam et porro repellendus et eligendi enim! Vel similique molestias et quibusdam Quis quo animi nesciunt id suscipit ducimus et neque facilis. Qui possimus perferendis vel delectus animi nam reprehenderit provident et autem sequi qui autem harum.
+        
+        Ut alias sunt ea illo dolorum est earum magni eos aperiam illum aut pariatur perferendis sed accusamus quasi sit deserunt illum. Est dolorem aperiam qui distinctio asperiores aut deserunt obcaecati qui exercitationem adipisci non dicta minus aut ipsa facere aut magnam optio. Sed quia officiis ut corporis facilis id nesciunt magnam et quam ipsa non corrupti voluptatem cum quia tempore. Qui quod animi nam suscipit aliquid eos maxime blanditiis! Lorem ipsum dolor sit amet. Est sunt labore vel repellat quia qui consequuntur natus qui nisi saepe. Est natus velit ad officiis animi et eaque blanditiis sed officia explicabo et Quis amet ex tempora iste qui dolores velit? Et deleniti corporis eum repudiandae aperiam ab dolores autem.
+
+        Sed velit distinctio sit quidem esse non beatae nulla in earum odio non molestias accusantium. Eum velit quas ab laboriosam harum qui illo quam qui pariatur quasi id excepturi quam et porro repellendus et eligendi enim! Vel similique molestias et quibusdam Quis quo animi nesciunt id suscipit ducimus et neque facilis. Qui possimus perferendis vel delectus animi nam reprehenderit provident et autem sequi qui autem harum.
+        
+        Ut alias sunt ea illo dolorum est earum magni eos aperiam illum aut pariatur perferendis sed accusamus quasi sit deserunt illum. Est dolorem aperiam qui distinctio asperiores aut deserunt obcaecati qui exercitationem adipisci non dicta minus aut ipsa facere aut magnam optio. Sed quia officiis ut corporis facilis id nesciunt magnam et quam ipsa non corrupti voluptatem cum quia tempore. Qui quod animi nam suscipit aliquid eos maxime blanditiis!</p>
     </div>
 </div>
 
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <!--script src="js/bootstrap.min.js"></script-->
+  <script src="js/script.js"></script>
 </body>
 </html>
